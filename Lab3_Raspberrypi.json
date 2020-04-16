@@ -1,0 +1,1 @@
+[{"id":"45a1429d.a36dec","type":"function","z":"bdd15d33.a830f","name":"Env. Data","func":"msg.payload = {\"Data\" : {\"Environment\" : msg.payload}};\nmsg.deviceType = \"senseHat\";\nmsg.deviceID =\"senb080027176354\";\nreturn msg;","outputs":1,"noerr":0,"x":800,"y":560,"wires":[["cc66f78b.b24d48","b97d609b.21bb8"]]}]
